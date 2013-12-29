@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_event"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/menu_main_events"/>
+
+
+    <item 
+        android:id="@+id/menu_count"
+        android:showAsAction="never"
+        android:title="@string/menu_count"/>
+</menu>

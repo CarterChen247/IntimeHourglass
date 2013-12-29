@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- English Version src -->
+
+    <string name="app_name">InTime</string>
+    <string name="action_settings">Settings</string>
+    <string name="hour"> hr</string>
+    <string name="minute"> min</string>
+    <string name="task">My Tasks</string>
+    <string name="event">My Events</string>
+    <string name="count">Event Timer</string>
+    <string name="add_event_title">New Event</string>
+    <string name="add_task_title">New Task</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="prompt_task">Choose an Event</string>
+    <string name="insert_event">Please insert an Event</string>
+    <string name="insert_event_title">Please insert event name</string>
+
+    <string-array name="sp_task">
+        <item>task</item>
+    </string-array>
+    <string-array name="action_list">
+        <item>current</item>
+        <item>past</item>
+    </string-array>
+
+    <string name="menu_main_events">My Events</string>
+    <string name="menu_done">Done</string>
+    <string name="menu_count">Event Timer</string>
+    <string name="main_hint">enjoy your free time above until</string>
+    <string name="main_greeting">Yes, your Majesty.</string>
+    <string name="main_subGtn">please assign some tasks to me.</string>
+    <string name="add_event_cost">It costs </string>
+    <string name="add_event_ps">Write something</string>
+    <string name="toast_done">Event complete revision and saved</string>
+    <string name="toast_delete">the chosen event has been deleted</string>
+    <string name="toast_event_done_create">Create event successfully</string>
+    <string name="toast_task_done_create">Create task successfully</string>
+    <string name="dialog_event_time">How long does it costs?</string>
+    <string name="dialog_notify">Get Ready!</string>
+    <string name="status_bar_notify">Stop ringing by click the status bar</string>
+    <string name="past_task">Past Tasks</string>
+    <string name="act_title">My Task</string>
+    <string name="act_sub_current">Current</string>
+    <string name="act_sub_past">Past</string>
+    <string name="toast_select_time">Please select the time</string>
+
+    <!-- Englisj Version xml -->
+
+    <string name="main_button">+ Add Tasks +</string>
+    <string name="add_event_title_hint">What do u want to do?</string>
+    <string name="add_count_title_hint">What did u do just now?</string>
+    <string name="add_event_button_hint">It costs 0 hr 0 min</string>
+    <string name="add_task_button">+ New Event</string>
+    <string name="add_task_start">Start Time</string>
+    <string name="add_task_end">End Time  </string>
+    <string name="count_toast">Please stop your timer first</string>
+    <string name="timer">00:00:00</string>
+    <string name="delete_remove">Remove task from the list</string>
+    <string name="delete_already">Removed successfully</string>
+    <string name="event_select">please select an event</string>
+    <string name="count_counting">counting</string>
+    <string name="count_ready">ready</string>
+    <string name="empty">Empty.</string>
+    <string name="example_event">Drive to work</string>
+    <string name="example_ps">for the salary!</string>
+    <string name="add">add</string>
+    <string name="no">no</string>
+    <string name="upcoming">upcoming tasks</string>
+    <string name="events">events</string>
+
+</resources>

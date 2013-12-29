@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Chinese Version src -->
+
+    <string name="app_name">InTime</string>
+    <string name="action_settings">設定</string>
+    <string name="hour"> 小時</string>
+    <string name="minute"> 分鐘</string>
+    <string name="task">管理活動</string>
+    <string name="event">管理事件</string>
+    <string name="count">事件計時</string>
+    <string name="add_event_title">新增事件</string>
+    <string name="add_task_title">新增活動</string>
+    <string name="edit_event">編輯事件</string>
+    <string name="prompt_task">選擇事件</string>
+    <string name="insert_event">請選擇活動</string>
+    <string name="insert_event_title">請輸入活動名稱</string>
+
+    <string-array name="sp_task">
+        <item>task</item>
+    </string-array>
+    <string-array name="action_list">
+        <item>現在</item>
+        <item>過去</item>
+    </string-array>
+
+    <string name="menu_main_events">管理事件</string>
+    <string name="menu_done">完成</string>
+    <string name="menu_count">事件計時</string>
+    <string name="main_hint">距離下一個活動開始還剩</string>
+    <string name="main_greeting">皇上吉祥~</string>
+    <string name="main_subGtn">指派個工作給微臣吧!</string>
+    <string name="add_event_cost">花費時間 </string>
+    <string name="add_event_ps">備註</string>
+    <string name="toast_done">事件已完成修改並儲存完成</string>
+    <string name="toast_delete">事件已被刪除</string>
+    <string name="toast_event_done_create">已成功建立事件</string>
+    <string name="toast_task_done_create">已成功建立事件</string>
+    <string name="dialog_event_time">做這件事會花多少時間?</string>
+    <string name="dialog_notify">該準備囉!</string>
+    <string name="status_bar_notify">點一下狀態列以停止鈴聲</string>
+    <string name="past_task">過去活動</string>
+    <string name="act_title">管理活動</string>
+    <string name="act_sub_current">進行中</string>
+    <string name="act_sub_past">已結束</string>
+    <string name="toast_select_time">請選擇活動時間</string>
+
+    <!-- Chinese Version xml -->
+
+    <string name="main_button">+ 管理活動 +</string>
+    <string name="add_event_title_hint">想做什麼事?</string>
+    <string name="add_count_title_hint">剛剛做了什麼事?</string>
+    <string name="add_event_button_hint">花費時間 0 小時 0 分鐘</string>
+    <string name="add_task_button">+ 新增事件</string>
+    <string name="add_task_start">準備時間</string>
+    <string name="add_task_end">結束時間</string>
+    <string name="count_toast">請先暫停計時</string>
+    <string name="timer">00:00:00</string>
+    <string name="delete_remove">從列表中移除工作</string>
+    <string name="delete_already">順利移除工作</string>
+    <string name="event_select">請選擇一個事件</string>
+    <string name="count_counting">計時中</string>
+    <string name="count_ready">就緒</string>
+    <string name="empty">空空如也.</string>
+    <string name="example_event">騎車上班</string>
+    <string name="example_ps">吾乃血汗勞工</string>
+    <string name="add">新增</string>
+    <string name="no">沒有</string>
+    <string name="upcoming">即將開始的活動</string>
+    <string name="events">個事件</string>
+
+</resources>

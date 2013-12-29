@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:padding="@dimen/activity_horizontal_margin" >
+
+        <View
+            android:id="@+id/aln_v"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Shadow" />
+
+        <LinearLayout
+            android:id="@+id/aln_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/aln_v"
+            android:background="@color/White"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin" >
+
+            <Button
+                android:id="@+id/btn_pickTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_event_button_hint"
+                style="?android:attr/spinnerStyle"
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/aln_sp"
+            android:hint="@string/add_event_title_hint"
+            android:imeOptions="actionNone"
+            android:inputType="text"
+            android:paddingBottom="@dimen/activity_horizontal_margin" 
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <EditText
+            android:id="@+id/et_ps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:hint="@string/add_event_ps"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
